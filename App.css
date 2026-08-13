@@ -382,6 +382,11 @@ section {
   letter-spacing: -0.02em;
   margin: 0 0 32px;
 }
+.hero-japanese {
+  font-size: clamp(20px, 2.2vw, 30px);
+  line-height: 1.4;
+  margin: 0 0 24px;
+}
 
 .hero-desc {
   max-width: 420px;

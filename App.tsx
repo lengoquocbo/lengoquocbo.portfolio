@@ -384,7 +384,7 @@ function Header({
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          BO.
+          PORTFO<span>LI</span>O- QUOCBO
         </a>
 
         <nav className={`nav ${menuOpen ? 'nav-open' : ''}`}>
@@ -406,12 +406,12 @@ function Header({
             </button>
             {cvOpen && (
               <div className="cv-dropdown">
-                <a className="cv-item" href="/cv/ngo-quoc-bo-jp.pdf" target="_blank" rel="noreferrer">
+                <a className="cv-item" href="/cv/le-ngo-quoc-bo-jp.pdf" target="_blank" rel="noreferrer">
                   <span className="cv-lang">日本語</span>
                   <span className="cv-desc">Japanese CV</span>
                   <span className="cv-link">PDF ↗</span>
                 </a>
-                <a className="cv-item" href="/cv/ngo-quoc-bo-en.pdf" target="_blank" rel="noreferrer">
+                <a className="cv-item" href="/cv/le-ngo-quoc-bo-en.pdf" target="_blank" rel="noreferrer">
                   <span className="cv-lang">ENGLISH</span>
                   <span className="cv-desc">English CV</span>
                   <span className="cv-link">PDF ↗</span>
@@ -464,13 +464,13 @@ function Hero({ scrollTo }: { scrollTo: (id: string) => void }) {
     <section id="top" className="hero">
       <div className="hero-grid">
         <div className="hero-left">
-          <p className="eyebrow reveal">Software Engineer — Vietnam</p>
+          <p className="eyebrow reveal">Software Engineer - Backend Developer</p>
           <h1 className="hero-name reveal">
             LE NGO
             <br />
             QUOC BO
           </h1>
-           <p>レー・ゴー・クオック・ボー</p>
+          <p className="hero-japanese">レー・ゴー・クオック・ボー</p>        
           <p className="hero-desc reveal">
             Backend-focused software developer building practical web applications and
             software systems.
@@ -597,7 +597,7 @@ function About() {
         </div>
         <div className="about-right reveal">
           <p>
-            I'm Ngo Quoc Bo, a software developer from Vietnam focused on backend
+            I'm Le Ngo Quoc Bo, a software developer from Vietnam focused on backend
             development, web applications and software systems.
           </p>
           <p>
@@ -754,7 +754,7 @@ function Contact() {
       </p>
 
       <div className="contact-links reveal">
-        <a href="mailto:hello@ngoquocbo.dev">Email ↗</a>
+        <a href="mailto:hello@lengoquocbo.dev">Email ↗</a>
         <a href="https://github.com/" target="_blank" rel="noreferrer">
           GitHub ↗
         </a>
@@ -766,12 +766,12 @@ function Contact() {
       <div className="resume-block reveal">
         <p className="resume-label">Resume / CV</p>
         <div className="resume-grid">
-          <a className="resume-item" href="/cv/ngo-quoc-bo-jp.pdf" target="_blank" rel="noreferrer">
+          <a className="resume-item" href="/cv/le-ngo-quoc-bo-jp.pdf" target="_blank" rel="noreferrer">
             <span className="resume-lang">日本語</span>
             <span className="resume-desc">Japanese CV</span>
             <span className="resume-download">Download PDF ↗</span>
           </a>
-          <a className="resume-item" href="/cv/ngo-quoc-bo-en.pdf" target="_blank" rel="noreferrer">
+          <a className="resume-item" href="/cv/le-ngo-quoc-bo-en.pdf" target="_blank" rel="noreferrer">
             <span className="resume-lang">English</span>
             <span className="resume-desc">English CV</span>
             <span className="resume-download">Download PDF ↗</span>
@@ -789,7 +789,7 @@ function Contact() {
 function Footer({ scrollTo }: { scrollTo: (id: string) => void }) {
   return (
     <footer className="footer">
-      <p>© 2026 Ngo Quoc Bo</p>
+      <p>© 2026 Le Ngo Quoc Bo- レー・ゴー・クオック・ボー</p>
       <p className="footer-center">
         Software Engineer
         <br />
